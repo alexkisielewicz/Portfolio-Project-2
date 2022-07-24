@@ -1,0 +1,42 @@
+body {
+  background-color: #deffd6;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main-container {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  padding: 0px;
+}
+
+.game {
+  width: 90%;
+  margin: 20px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+  text-align: center;
+  padding: 50px;
+}
+
+#question {
+  font-size: 2em;
+  margin: 10px auto 50px;
+}
+
+.button {
+  background-color: #B6C8A9;
+  border: 2px solid #FFF;
+  font-size: 1.25em;
+  padding: 50px;
+  margin: 5px;
+}
+
+.button:hover {
+  border: 2px solid orange;
+}
